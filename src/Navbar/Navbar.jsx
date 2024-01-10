@@ -49,7 +49,7 @@ const Navbar = () => {
         }`}
       >
         {routes.map((route) => (
-          <Link route={route}></Link>
+          <Link route={route} key={route.id}></Link>
         ))}
       </div>
     </nav>
